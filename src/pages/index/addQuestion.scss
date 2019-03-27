@@ -1,0 +1,28 @@
+.add-question-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    .question-title, .question-des {
+        width: 100%;
+        border-bottom: 1PX solid #ccc;
+        margin-top: 10PX;
+    }
+}
+.dialog-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    // width: 100%;
+    margin: 20PX auto;
+    .btn {
+        width: 45%;
+    }
+    .ok {
+        background: green;
+        color: #fff;
+    }
+}
